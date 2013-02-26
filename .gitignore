@@ -11,3 +11,5 @@ doc/_build
 .gitignore
 
 .gitignore
+
+.pydevproject
