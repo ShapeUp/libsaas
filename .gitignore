@@ -5,3 +5,9 @@ dist
 MANIFEST
 doc/generated
 doc/_build
+
+.project
+
+.gitignore
+
+.gitignore
