@@ -13,3 +13,4 @@ doc/_build
 .gitignore
 
 .pydevproject
+_trial_temp/
