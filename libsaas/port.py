@@ -43,7 +43,7 @@ def to_u(val, encoding='utf-8'):
     Take a number, text (unicode) or binary value and return unicode. Binary
     values are decoded using the provided encoding.
     """
-    if isinstance(val, text_type) or isinstance(val, list):
+    if isinstance(val, text_type) or isinstance(val, list) or val is None:
         return val
     elif isinstance(val, numeric_types):
         return text_type(val)
